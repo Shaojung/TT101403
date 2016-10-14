@@ -1,13 +1,27 @@
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.test.tt101403.FragmentA">
+    tools:context="com.test.tt101403.FragmentA"
+    android:orientation="vertical">
 
     <!-- TODO: Update blank fragment layout -->
+    <Button
+        android:text="Button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button4" />
+
+    <TextView
+        android:text="TextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
     <TextView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:text="AAAA" />
 
-</FrameLayout>
+</LinearLayout>
